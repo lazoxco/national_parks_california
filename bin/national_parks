@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './lib/national_parks_california.rb'
+
+NationalParksCalifornia::CLI.new.call
